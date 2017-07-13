@@ -114,7 +114,7 @@ Flapper.prototype = Object.create(Phaser.Sprite.prototype);
 Flapper.prototype.constructor = Flapper;
 
 Flapper.prototype.flap = function () {
-  this.flapSound.play();
+  //this.flapSound.play();
   this.body.velocity.y = this.config.flappy.flap.velocity || -420;
   this.frame = this.config.flappy.flap.frame || 0;
   if (! this.config.flappy.flap.norotate ) {

@@ -267,7 +267,7 @@ Flappy.Preload.prototype = {
     this.load.audio('point', 'assets/point.wav');
     this.load.audio('crash', 'assets/crash.wav');
     this.load.audio('play', 'assets/play.mp3');
-    this.load.audio('gameover', 'assets/gameover.wav');
+    this.load.audio('gameover', 'assets/gameover.mp3');
   },
 
   create: function () {
